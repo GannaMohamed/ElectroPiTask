@@ -9,7 +9,6 @@ Live Preview: https://electro-pi-task.vercel.app/
 * React.js
 * Next.js
 * CSS Modules
-* Styled-components
 
 ---
 
@@ -17,7 +16,7 @@ Live Preview: https://electro-pi-task.vercel.app/
 * ✅ Set up Next.js app and folder structure
 * ✅ Implemented design system & UI assets
 * ✅ Built 6 of 7 sections
-* ⚠️ Final section + polish pending
+* ✅ Final section + polish pending
 * ⚠️ Responsiveness not fully implemented (breakpoints already set up)
 
 ---
