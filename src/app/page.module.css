@@ -52,7 +52,7 @@
   gap: 16px;
 }
 
-.ctas a {
+.ctas a, a.ctas {
   /* appearance: none; */
   border-radius: 1.625rem;
   border: 1px solid #FFF;
@@ -79,6 +79,22 @@
   font-size: 0.875rem;
   line-height: 142.857%;
   font-weight: 500;
+}
+
+a.chip {
+  border-radius: 1rem;
+  border: var(--border);
+  text-transform: uppercase;
+  color: rgba(206, 206, 206, 1);
+  font-size: 0.8125rem;
+  padding: 0.25rem 0.545rem 0.25rem 0.25rem;
+  align-items: flex-start;
+  gap: 0.375rem;
+  width: fit-content !important;
+  display: flex;
+  align-items: center;
+  display: inline-flex;
+  background-repeat: no-repeat;
 }
 
 
@@ -119,6 +135,7 @@ a.betabtn {
   border-radius: 2.5rem;
   background: rgba(255, 255, 255, 0.04);
   padding: 0.5rem;
+
 }
 
 .footer {
@@ -136,8 +153,6 @@ a.betabtn {
 .footer img {
   flex-shrink: 0;
 }
-
-
 
 
 /* Enable hover only on non-touch devices */

@@ -1,0 +1,61 @@
+.section {
+    padding: 6rem 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.66rem;
+    background: url("/plans/plans bg.svg");
+    background-size: cover;
+    * {
+        font-weight: 400;
+        text-align: start;
+    }
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.plans { /*container*/
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.checklist {
+  list-style: none;
+}
+
+.checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 0.75rem;
+  font-size: 0.875rem;
+  
+}
+
+.checklist li::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  margin: auto 0;
+  background: #434343;
+
+  -webkit-mask: url("/plans/check.svg") no-repeat center / contain;
+          mask: url("/plans/check.svg") no-repeat center / contain;
+}
+
+.supportChecklist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.included {
+    font-size: 0.8125rem;
+    line-height: 123.077%;
+    letter-spacing: 0.04063rem;
+    text-transform: uppercase;
+}
+

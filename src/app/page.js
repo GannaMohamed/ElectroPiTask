@@ -5,7 +5,7 @@ import Header from "./sections/1. header/Header";
 import Partners from "./sections/2. partners/Partners";
 import Features from "./sections/3. features/features";
 import Tests from "./sections/4. tests/Tests";
-import Plans from "./sections/plans/Plans";
+import Plans from "./sections/5. plans/Plans";
 
 export default function Home() {
   return (
