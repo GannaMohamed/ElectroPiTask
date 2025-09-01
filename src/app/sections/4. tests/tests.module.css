@@ -1,0 +1,33 @@
+section.container {
+  position: relative;
+  display: flex;
+  /* flex-direction: column; */
+  box-sizing: border-box;
+  padding: 7rem 15rem;
+  gap: 4rem;
+  > * {
+  display: flex; 
+   flex-direction: column;
+
+  justify-content: center;
+  border: var(--border);
+    > section {
+  display: flex;
+    flex-direction: column;
+
+  justify-content: center;
+  border: var(--border);
+    }
+  > * {
+    /* flex-grow: 1; */
+      border: var(--border);
+      padding: 0rem 2rem;
+  }
+  }
+}
+
+.star {
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+}

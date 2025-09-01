@@ -5,16 +5,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: linear-gradient(180deg, #1B1B1D 0%, #070708 100%);
+    --foreground: #E6E6F0;
+    --blackText: #09090A;
+    --navlinkText: #CBD5E1;
+    --border: 1px solid rgba(255, 255, 255, 0.06);
   }
 }
 
 html,
 body {
+  font-size: 16px; /* default font size */
   max-width: 100vw;
   overflow-x: hidden;
 }
+
 
 body {
   color: var(--foreground);
@@ -28,6 +33,38 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+h2 { 
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 111.111% 
+
+}
+h3 { 
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.16813rem;
+}
+h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 130%;
+}
+h6 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 139%;
+}
+
+.border {
+  border: var(--border);
 }
 
 a {
@@ -39,4 +76,13 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+@media (max-width: 479px) {
+  /* mobile devices */
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* tablet devices */
 }
