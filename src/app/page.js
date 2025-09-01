@@ -6,6 +6,7 @@ import Partners from "./sections/2. partners/Partners";
 import Features from "./sections/3. features/features";
 import Tests from "./sections/4. tests/Tests";
 import Plans from "./sections/5. plans/Plans";
+import Footer from "./sections/6. footer/Footer";
 
 export default function Home() {
   return (
@@ -15,9 +16,7 @@ export default function Home() {
       <Features />
       <Tests />
       <Plans />
-      {/* <footer className={styles.footer}>
-      
-      </footer> */}
+      <Footer />
     </div>
   );
 }

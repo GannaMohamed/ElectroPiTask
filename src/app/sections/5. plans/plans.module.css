@@ -1,4 +1,6 @@
 .section {
+        font-family: Helvetica;
+
     padding: 6rem 15rem;
     display: flex;
     flex-direction: column;

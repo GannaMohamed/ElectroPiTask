@@ -4,7 +4,7 @@ import styles from "./features.module.css";
 import "./features.css";
 export default function Features() {
   return (
-    <section classname="bento-container">
+    <section className="bento-container">
       <img className="bento-img" src="/features/bento.svg" />
       {/* <Box />
       <Box />

@@ -139,6 +139,9 @@ export default function Plans() {
             <h2>$750</h2>
             <p>monthly</p>
             <a className={generalStyles.ctas}>Request Access</a>
+            <small className={generalStyles.greyText}>
+              No long term contract obligation.
+            </small>
           </div>
         </div>
       </div>
